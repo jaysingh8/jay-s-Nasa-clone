@@ -1053,8 +1053,7 @@ footer{
    margin-top:2vh ;
   font-size: 1rem;
 }
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 808px) {
     body {
         overflow-x: hidden;
     }
@@ -1340,5 +1339,3 @@ footer{
         gap: 3vh;
     }
 }
-
-
