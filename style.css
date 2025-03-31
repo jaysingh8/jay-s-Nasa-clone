@@ -1054,6 +1054,291 @@ footer{
   font-size: 1rem;
 }
 
-
+@media only screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 2vh 0;
+    }
+    
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 2vh;
+    }
+    
+    .nav-left, .nav-middle, .nav-right {
+        width: 100%;
+        justify-content: center;
+        margin: 1vh 0;
+    }
+    
+    .nav-left {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .nav-left-part1, .nav-left-part2 {
+        width: 80%;
+        margin: 1vh 0;
+    }
+    
+    .nav-left-part1 button {
+        height: 3vh;
+        width: 3vh;
+    }
+    
+    .nav-left-part2 input {
+        width: 100%;
+    }
+    
+    .nav-middle {
+        margin: 2vh 0;
+    }
+    
+    .nav-right {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .nav-right h2 {
+        margin: 1vh;
+        font-size: 2vh;
+        padding: 5px;
+    }
+    
+    .nav-right p {
+        width: auto;
+        height: auto;
+        padding: 5px;
+        margin: 1vh;
+    }
+    
+    .first-section img {
+        height: 60vh;
+    }
+    
+    .first-template-words {
+        width: 90%;
+        margin-left: 5%;
+        height: auto;
+        margin-top: 5vh;
+    }
+    
+    .first-template-words h1 {
+        font-size: 5vh;
+    }
+    
+    .first-template-words p {
+        font-size: 2vh;
+    }
+    
+    .first-template-words button {
+        min-width: 80%;
+        max-width: 90%;
+        margin: 2vh auto;
+    }
+    
+    .first-template-footer {
+        width: 90%;
+        margin-left: 5%;
+        top: 45vh;
+        flex-direction: column;
+    }
+    
+    .template-footer-div1 {
+        width: 100%;
+        margin-bottom: 2vh;
+    }
+    
+    .second-section, .mission {
+        height: auto;
+        padding: 2vh;
+    }
+    
+    .second-section .explore-home, .mission-div1, .mission-div2 {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .second-section img, .mission-div2-2 img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .explore-info-parts {
+        width: 100%;
+        margin-bottom: 3vh;
+    }
+    
+    .explore-home h4, .explore-home h3, .explore-home p {
+        width: 100%;
+    }
+    
+    .mission-div1 ul li {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .mission-div1 hr {
+        margin-left: 0;
+        width: 100%;
+    }
+    
+    .third-Section .news, .multi-media {
+        position: relative;
+        min-width: 100%;
+        margin-left: 0;
+        max-height: none;
+    }
+    
+    .fourth-section {
+        margin-top: 65vh;
+    }
+    
+    .Nasa-feature {
+        flex-direction: column;
+        height: auto;
+        gap: 2vh;
+    }
+    
+    .Nasa-feature h1 {
+        font-size: 2rem;
+    }
+    
+    .Nasa-img-con {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .nasa-img-con1, .nasa-img-con2 {
+        width: 100%;
+    }
+    
+    .nasa-img-con1 img, .nasa-img-div1 img, .nasa-img-div2 img {
+        height: 40vh;
+        width: 100%;
+        padding-right: 0;
+    }
+    
+    .nasa-img-con2 {
+        flex-direction: column;
+    }
+    
+    .nasa-img-div1, .nasa-img-div20 {
+        width: 100%;
+        height: 40vh;
+    }
+    
+    .new-span {
+        margin-top: 25vh;
+    }
+    
+    .nasa-launch {
+        flex-direction: column;
+        gap: 3vh;
+    }
+    
+    .nasa-4launches {
+        width: 100%;
+    }
+    
+    .img-humanspace {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .img-humanspace img {
+        width: 80%;
+        height: auto;
+        margin-top: 3vh;
+    }
+    
+    .scienceImg {
+        height: 60vh;
+    }
+    
+    .scienceImg img {
+        width: 100%;
+    }
+    
+    .text-sci {
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .text-sci h2 {
+        font-size: 3rem;
+    }
+    
+    .of-the-day {
+        flex-direction: column;
+    }
+    
+    .title-of-the-day, .img-of-the-day {
+        width: 100%;
+        padding: 2vh;
+    }
+    
+    .img-of-the-day img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .earth-info {
+        height: 70vh;
+    }
+    
+    .earth-info-detail {
+        width: 90%;
+        padding-left: 5vh;
+    }
+    
+    .earth-info-detail h1 {
+        font-size: 3rem;
+    }
+    
+    .more-image {
+        flex-direction: column;
+    }
+    
+    .wild-bird {
+        flex-direction: column;
+    }
+    
+    .wild-first img, .wild-second img {
+        width: 100%;
+        height: auto;
+    }
+    
+    footer {
+        padding: 4vh 2vh;
+    }
+    
+    .footer-main {
+        flex-direction: column;
+    }
+    
+    .footer-join, .footer-home, .footer-social {
+        width: 100%;
+    }
+    
+    .footer-header img {
+        width: 15vw;
+    }
+    
+    .footer-join span {
+        width: 30vw;
+    }
+    
+    .footer-home {
+        flex-direction: column;
+        gap: 3vh;
+    }
+}
 
 
